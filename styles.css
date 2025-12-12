@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif; 
     margin-left: 10px;
     padding: 0;
+    max-width: 1200px;
 }
 
 /* Container for the rectangle */
