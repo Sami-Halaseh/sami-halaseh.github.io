@@ -30,3 +30,32 @@ header img {
     width: 40px;          /* Size of each square */
     height: 40px;         /* Size of each square */
 }
+
+/* On mobile, move the rectangle to a new position and adjust other elements */
+@media (max-width: 768px) {
+    /* Move the rectangle below the header */
+    #color-rectangle {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-top: 20px;  /* Adds space between the name and rectangle */
+    }
+
+    /* Stack the elements vertically, if needed */
+    header {
+        text-align: center;  /* Center the header content on small screens */
+        margin-bottom: 20px;  /* Space between header and rectangle */
+    }
+
+    /* Adjust the size of the squares in the rectangle */
+    .square {
+        width: 30px;  /* Smaller squares on mobile */
+        height: 30px;
+    }
+
+    /* Optionally adjust the width of the container */
+    .container {
+        padding-left: 10px;  /* Optional: Adds padding on smaller screens */
+        padding-right: 10px;
+    }
+}
