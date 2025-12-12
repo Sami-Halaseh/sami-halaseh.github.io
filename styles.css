@@ -6,3 +6,22 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Container for the rectangle */
+#color-rectangle {
+    position: absolute;  /* Position relative to the entire page */
+    top: 30px;           /* Distance from the top */
+    right: 30px;         /* Distance from the right */
+}
+
+/* Rectangle containing squares */
+.rectangle {
+    display: flex;         /* Align squares horizontally */
+    justify-content: space-between; /* Space squares evenly within the rectangle */
+}
+
+/* Individual squares */
+.square {
+    width: 40px;          /* Size of each square */
+    height: 40px;         /* Size of each square */
+}
