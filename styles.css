@@ -12,8 +12,8 @@ body {
 /* Container for the rectangle */
 #color-rectangle {
     position: absolute;  /* Position relative to the entire page */
-    top: 40px;           /* Distance from the top */
-    right: 40px;         /* Distance from the right */
+    top: 30px;           /* Distance from the top */
+    right: 30px;         /* Distance from the right */
 }
 
 /* Rectangle containing squares */
@@ -24,6 +24,6 @@ body {
 
 /* Individual squares */
 .square {
-    width: 50px;          /* Size of each square */
-    height: 50px;         /* Size of each square */
+    width: 40px;          /* Size of each square */
+    height: 40px;         /* Size of each square */
 }
