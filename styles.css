@@ -19,8 +19,8 @@ section h3 {
 
 /* Add more space between sections */
 section {
-    margin-bottom: 3rem; /* Increased spacing between sections */
-    padding-top: 1rem;   /* Additional top padding */
+    margin-bottom: 2rem; /* Increased spacing between sections */
+    padding-top: 0.5rem;   /* Additional top padding */
 }
 
 /* Container for the rectangle */
