@@ -12,6 +12,17 @@ header img {
     margin-top: 10px;  /* Adds 20px of space above the image */
 }
 
+/* Make headers slightly closer to the body text within each section */
+section h3 {
+    margin-bottom: 0.5rem; /* Reduced from default ~1rem */
+}
+
+/* Add more space between sections */
+section {
+    margin-bottom: 3rem; /* Increased spacing between sections */
+    padding-top: 1rem;   /* Additional top padding */
+}
+
 /* Container for the rectangle */
 #color-rectangle {
     position: absolute;  /* Position relative to the entire page */
